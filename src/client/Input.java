@@ -11,6 +11,7 @@ import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.GridPane;
+import javafx.stage.DirectoryChooser;
 import javafx.stage.FileChooser;
 import javafx.stage.Stage;
 import java.io.File;
@@ -33,6 +34,7 @@ public class Input extends Application{
 	//gs
 	private Desktop desktop = Desktop.getDesktop();
 	final FileChooser fileChooser = new FileChooser();
+	final DirectoryChooser dirChooser = new DirectoryChooser();
 	final Button fileOpen = new Button("Select a file..");
 	
 
